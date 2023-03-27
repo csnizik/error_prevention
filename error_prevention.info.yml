@@ -1,0 +1,5 @@
+name: 'ErrorPrevention'
+type: module
+description: 'A module that integrates with Drupal forms and provides configurable options for reversible, checked, and confirmed error prevention mechanisms.'
+core_version_requirement: ^9 || ^10
+package: 'Custom'

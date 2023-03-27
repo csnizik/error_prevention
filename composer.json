@@ -1,0 +1,12 @@
+{
+  "name": "error_prevention",
+  "type": "drupal-module",
+  "description": "A module that integrates with Drupal forms and provides configurable options for reversible, checked, and confirmed error prevention mechanisms.",
+  "keywords": [],
+  "homepage": "https://www.drupal.org/project/error_prevention",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/error_prevention",
+    "source": "http://cgit.drupalcode.org/error_prevention"
+  }
+}

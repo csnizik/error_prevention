@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains error_prevention.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function error_prevention_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the error_prevention module.
+    case 'help.page.error_prevention':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A module that integrates with Drupal forms and provides configurable options for reversible, checked, and confirmed error prevention mechanisms.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function error_prevention_theme() {
+  return [
+    'error_prevention' => [
+      'render element' => 'children',
+    ],
+  ];
+}
